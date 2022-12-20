@@ -2,7 +2,7 @@ import React from "react";
 
 //create your first component
 const Navbar = () => {
-	return (<>
+	return (
 <nav className="navbar navbar-expand-lg bg-light">
   <div className="container-fluid">
     <a className="navbar-brand" href="#">Navbar</a>
@@ -19,7 +19,7 @@ const Navbar = () => {
     </div>
   </div>
 </nav>
-</>
+
 	);
 };
 
